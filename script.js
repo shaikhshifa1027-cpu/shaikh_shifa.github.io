@@ -23,4 +23,14 @@ document.getElementById("contactForm")?.addEventListener("submit", function(e){
     } else {
         document.getElementById("formMsg").innerText = "Message sent successfully!";
     }
+    // Open Image Modal
+function openModal(img) {
+    document.getElementById("imgModal").style.display = "block";
+    document.getElementById("modalImg").src = img.src;
+}
+
+// Close Modal
+function closeModal() {
+    document.getElementById("imgModal").style.display = "none";
+}
 });
