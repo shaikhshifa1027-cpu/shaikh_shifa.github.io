@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Certificates</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Certificates</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="projects.html">Projects</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section class="container">
+
+<h2>🏆 Certificate Gallery</h2>
+
+<div class="gallery">
+
+    <img src="images/c1.jpg" onclick="openModal(this)" alt="Certificate 1">
+    <img src="images/c2.jpg" onclick="openModal(this)" alt="Certificate 2">
+    <img src="images/c3.jpg" onclick="openModal(this)" alt="Certificate 3">
+    <img src="images/c4.jpg" onclick="openModal(this)" alt="Certificate 4">
+    <img src="images/c5.jpg" onclick="openModal(this)" alt="Certificate 5">
+    <img src="images/c6.jpg" onclick="openModal(this)" alt="Certificate 6">
+
+</div>
+
+</section>
+
+<!-- Modal (Zoom View) -->
+<div id="imgModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <img class="modal-content" id="modalImg">
+</div>
+
+<footer>
+    <p>🌟 My Achievements</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
